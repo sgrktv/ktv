@@ -1,0 +1,190 @@
+@import url(base.css);
+header {
+  width: 100%;
+  height: 0.4rem;
+  background: #fe3190; }
+  header img {
+    width: 7.5rem;
+    height: 4.8rem; }
+
+.navigation {
+  width: 100%;
+  height: 0.88rem;
+  background: #fe3190; }
+  .navigation .return {
+    display: block;
+    width: 0.44rem;
+    height: 0.88rem;
+    position: relative;
+    margin-left: 0.24rem;
+    float: left; }
+    .navigation .return .icon-fanhui2 {
+      color: #fff;
+      position: absolute;
+      top: 0.28rem;
+      left: 0;
+      font-size: 0.4rem; }
+  .navigation .rklist {
+    width: 2.36rem;
+    height: 100%;
+    float: left;
+    font-size: 0.36rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+    margin-left: 1.9rem;
+    font-weight: bold; }
+
+.option {
+  width: 100%;
+  height: 0.52rem;
+  background: #fe3190; }
+  .option .iwidth {
+    width: 7.02rem;
+    height: 0.52rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .option .iwidth .iwidth1 {
+      display: block;
+      width: 1.02rem;
+      height: 0.52rem;
+      font-size: 0.24rem;
+      color: #fff;
+      position: relative;
+      line-height: 0.52rem; }
+      .option .iwidth .iwidth1 .span {
+        margin-left: 0.3rem; }
+      .option .iwidth .iwidth1 .icon-quantequanb {
+        color: #fff;
+        position: absolute;
+        top: 0rem;
+        left: 0;
+        font-size: 0.4rem; }
+    .option .iwidth .iwidth1:nth-child(2) {
+      padding-left: 0.45rem;
+      box-sizing: border-box;
+      line-height: 0.52rem; }
+    .option .iwidth .iwidth1:nth-child(3) {
+      text-align: center; }
+
+.option1 {
+  width: 100%;
+  height: 0.6rem;
+  background: #fe3190; }
+  .option1 .option2 {
+    width: 7.02rem;
+    height: 0.6rem;
+    margin: 0 auto;
+    display: flex; }
+    .option1 .option2 .MonthlyRanking {
+      width: 2.22rem;
+      height: 0.6rem;
+      font-size: 0.26rem;
+      color: #000;
+      text-align: center;
+      line-height: 0.6rem;
+      background: #fff;
+      border-top-left-radius: 0.08rem;
+      border-bottom-left-radius: 0.08rem; }
+    .option1 .option2 .SeasonRanking {
+      width: 2.56rem;
+      height: 0.6rem;
+      font-size: 0.26rem;
+      color: #fff;
+      text-align: center;
+      line-height: 0.6rem;
+      border-top: 0.02rem solid #fff;
+      border-bottom: 0.02rem solid #fff;
+      box-sizing: border-box; }
+    .option1 .option2 .AnnualRanking {
+      width: 2.24rem;
+      height: 0.6rem;
+      font-size: 0.26rem;
+      color: #000;
+      text-align: center;
+      line-height: 0.6rem;
+      background: #fff;
+      border-top-right-radius: 0.08rem;
+      border-bottom-right-radius: 0.08rem; }
+
+.wheel {
+  width: 100%;
+  height: 3.75rem;
+  padding-top: 0.2rem;
+  box-sizing: border-box; }
+  .wheel .wheelmap {
+    width: 5.02rem;
+    height: 3.18rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin: 0 auto;
+    padding: 0.03rem;
+    box-sizing: border-box;
+    position: relative; }
+    .wheel .wheelmap img {
+      width: 4.96rem;
+      height: 3.12rem; }
+    .wheel .wheelmap .inputv {
+      width: 4.58rem;
+      height: 0.65rem;
+      background: #fff;
+      border-radius: 0.5rem;
+      position: absolute;
+      bottom: 0.2rem;
+      left: 0.2rem; }
+      .wheel .wheelmap .inputv input {
+        display: block;
+        float: left;
+        width: 3.63rem;
+        height: 0.65rem;
+        border: none;
+        background: #fff;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        outline: none;
+        padding-left: 0.3rem;
+        box-sizing: border-box; }
+      .wheel .wheelmap .inputv .inputz {
+        float: left;
+        width: 0.95rem;
+        height: 0.65rem;
+        background: #fe3191;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        border: 0.02rem solid #fff;
+        border-left: none;
+        box-sizing: border-box;
+        position: relative; }
+        .wheel .wheelmap .inputv .inputz .icon-jiahao3 {
+          color: #fff;
+          font-size: 0.4rem;
+          position: absolute;
+          top: 0.12rem;
+          left: 0.25rem; }
+
+.information {
+  width: 7.02rem;
+  height: 1.53rem;
+  margin: 0 auto;
+  border-bottom: 0.01rem dashed #b7b7b7; }
+  .information .informimg {
+    width: 1.55rem;
+    height: 1.53rem;
+    float: left; }
+    .information .informimg img {
+      width: 1.55rem;
+      height: 1.52rem; }
+  .information .informs {
+    width: 3.24rem;
+    height: 1.53rem;
+    float: left;
+    padding-top: 0.45rem;
+    box-sizing: border-box; }
+    .information .informs p {
+      font-size: 0.26rem;
+      color: #58606d; }
+      .information .informs p span {
+        font-size: 0.24rem;
+        color: #cecece;
+        line-height: 0.4rem; }
