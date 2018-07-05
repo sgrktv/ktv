@@ -1,0 +1,113 @@
+@import url(base.css);
+.shangbu {
+  width: 100%;
+  height: 3.53rem;
+  background: url("../img/toububj.png") no-repeat;
+  background-size: 100%;
+  overflow: hidden; }
+
+nav {
+  color: white;
+  margin-top: 0.64rem;
+  text-align: center;
+  line-height: 0.34rem;
+  width: 100%;
+  height: 0.34rem;
+  font-size: 0.34rem;
+  position: relative; }
+
+.back {
+  width: 0.34rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0;
+  left: 0.24rem; }
+
+.icon-fanhui2 {
+  display: block;
+  color: #fff;
+  width: 0.34rem;
+  height: 0.34rem; }
+
+.main {
+  position: absolute;
+  left: 0.24rem;
+  top: 1.42rem; }
+
+li {
+  width: 7.02rem;
+  height: 3.12rem;
+  border-radius: 0.08rem;
+  background: url("../img/tuijian1.png") no-repeat center;
+  position: relative;
+  padding: 0.01rem;
+  margin-bottom: 0.26rem;
+  box-shadow: 0 0 0.08rem 0.03rem #ffc2dd; }
+
+.main li:nth-child(2) {
+  background: url("../img/tuijian2.png") no-repeat center; }
+
+.main li:nth-child(3) {
+  background: url("../img/tuijian3.png") no-repeat center; }
+
+.wenzi1 {
+  display: block;
+  width: 3.21rem;
+  height: 0.52rem;
+  background: #3ab7ff;
+  font-size: 0.28rem;
+  line-height: 0.52rem;
+  text-align: center;
+  color: white;
+  border-radius: 0.08rem;
+  position: absolute;
+  left: 0.63rem;
+  bottom: 0.23rem; }
+
+.wenzi2 {
+  display: block;
+  width: 2.62rem;
+  height: 0.52rem;
+  text-align: center;
+  background: #1aa5f5;
+  font-size: 0.24rem;
+  color: white;
+  border-radius: 0.08rem;
+  position: absolute;
+  right: 0.68rem;
+  bottom: 0.36rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.icon-ren {
+  display: block;
+  font-size: 0.24rem;
+  color: white;
+  width: 0.24rem;
+  height: 0.24rem;
+  line-height: 0.24rem; }
+
+.icon-erji {
+  display: block;
+  font-size: 0.24rem;
+  color: white;
+  width: 0.24rem;
+  height: 0.24rem;
+  line-height: 0.24rem; }
+
+.wenziz1 {
+  display: block;
+  padding-left: 0.2rem; }
+
+.wenziy2 {
+  display: block;
+  padding-left: 0.2rem; }
+
+.wenziz {
+  display: flex;
+  align-items: center; }
+
+.wenziy {
+  display: flex;
+  align-items: center; }
