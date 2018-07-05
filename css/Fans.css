@@ -1,80 +1,156 @@
 @charset "UTF-8";
 @import url("base.css");
 /* 背景开始 */
-body {
+#Fans {
   width: 7.50rem;
   height: 13.34rem;
-  position: relative; }
-
-/* 背景结束 */
-/*标题栏*/
-.Fans-titlebar {
-  height: 2.94rem;
-  background: url(../img/fans-bj.png) no-repeat center/cover;
-  overflow: hidden;
-  position: relative; }
-  .Fans-titlebar .Fans-core {
-    width: 1.7rem;
-    height: 0.52rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0.9rem auto; }
-    .Fans-titlebar .Fans-core p {
-      font-size: 0.26rem;
-      color: #fff;
-      text-align: center;
-      line-height: 0.52rem; }
-      .Fans-titlebar .Fans-core p span {
-        font-size: 0.2rem;
+  position: relative;
+  /* 背景结束 */
+  /*标题栏*/
+  /*内容*/ }
+  #Fans .Fans-titlebar {
+    height: 2.94rem;
+    background: url(../img/fans-bj.png) no-repeat center/cover;
+    overflow: hidden;
+    position: relative; }
+    #Fans .Fans-titlebar .Fans-core {
+      width: 1.7rem;
+      height: 0.52rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0.9rem auto; }
+      #Fans .Fans-titlebar .Fans-core p {
+        font-size: 0.26rem;
         color: #fff;
         text-align: center;
         line-height: 0.52rem; }
-    .Fans-titlebar .Fans-core .Fans-statusbar-btnL {
-      width: 0.05rem;
-      height: 0.05rem;
-      background: #fff;
-      border-radius: 50%; }
-    .Fans-titlebar .Fans-core .Fans-statusbar-btnR {
-      width: 0.05rem;
-      height: 0.05rem;
-      background: #fff;
-      border-radius: 50%; }
-  .Fans-titlebar .Fans-return {
-    width: 0.4rem;
-    height: 0.4rem;
+        #Fans .Fans-titlebar .Fans-core p span {
+          font-size: 0.2rem;
+          color: #fff;
+          text-align: center;
+          line-height: 0.52rem; }
+      #Fans .Fans-titlebar .Fans-core .Fans-statusbar-btnL {
+        width: 0.05rem;
+        height: 0.05rem;
+        background: #fff;
+        border-radius: 50%; }
+      #Fans .Fans-titlebar .Fans-core .Fans-statusbar-btnR {
+        width: 0.05rem;
+        height: 0.05rem;
+        background: #fff;
+        border-radius: 50%; }
+    #Fans .Fans-titlebar .Fans-return {
+      width: 0.4rem;
+      height: 0.4rem;
+      position: absolute;
+      top: 0.87rem;
+      left: 0.24rem; }
+      #Fans .Fans-titlebar .Fans-return i {
+        float: left;
+        font-size: 0.38rem;
+        color: #fff; }
+    #Fans .Fans-titlebar .Fans-add {
+      width: 0.48rem;
+      height: 0.48rem;
+      border-radius: 50%;
+      border: 0.02rem solid rgba(255, 255, 255, 0.2);
+      position: absolute;
+      top: 0.9rem;
+      right: 0.2rem; }
+      #Fans .Fans-titlebar .Fans-add i {
+        float: right;
+        font-size: 0.48rem;
+        color: #fff; }
+  #Fans main {
+    width: 100%;
+    height: 100%;
+    background: url(../img/fans-quan.png) no-repeat center/cover;
     position: absolute;
-    top: 0.87rem;
-    left: 0.24rem; }
-    .Fans-titlebar .Fans-return i {
-      float: left;
-      font-size: 0.38rem;
-      color: #fff; }
-  .Fans-titlebar .Fans-add {
-    width: 0.48rem;
-    height: 0.48rem;
-    border-radius: 50%;
-    border: 0.02rem solid rgba(255, 255, 255, 0.2);
-    position: absolute;
-    top: 0.9rem;
-    right: 0.2rem; }
-    .Fans-titlebar .Fans-add i {
-      float: right;
-      font-size: 0.48rem;
-      color: #fff; }
-
-/*内容*/
-main {
-  width: 100%;
-  height: 100%;
-  background: url(../img/fans-quan.png) no-repeat center/cover;
-  position: absolute;
-  top: 1.71rem;
-  left: 0; }
-  main .Fans-list {
-    height: auto;
-    margin-top: 1rem; }
-    main .Fans-list li {
-      height: 1.4rem;
-      margin: auto 0.24rem;
-      background: #565EFF; }
+    top: 1.71rem;
+    left: 0; }
+    #Fans main .Fans-list {
+      height: auto;
+      margin-top: 1rem; }
+      #Fans main .Fans-list .Fans-li {
+        height: 1.4rem;
+        margin: auto 0.24rem;
+        background: lavender;
+        position: relative;
+        overflow: hidden; }
+        #Fans main .Fans-list .Fans-li .Fans-Head-portrait {
+          width: 1rem;
+          height: 1rem;
+          border-radius: 50%;
+          border: 2px dotted rgba(113, 113, 216, 0.6);
+          position: absolute;
+          top: 0.2rem;
+          left: 0;
+          overflow: hidden; }
+          #Fans main .Fans-list .Fans-li .Fans-Head-portrait img {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            position: absolute;
+            top: -0.6rem;
+            left: -1.3rem; }
+        #Fans main .Fans-list .Fans-li .Fans-name {
+          height: auto;
+          margin-top: 0.26rem;
+          margin-left: 1.1rem; }
+          #Fans main .Fans-list .Fans-li .Fans-name span {
+            float: left;
+            font-size: 0.24rem;
+            color: #4e4e4e; }
+          #Fans main .Fans-list .Fans-li .Fans-name .Fans-start {
+            float: left;
+            margin-left: 0.1rem;
+            height: 0.25rem;
+            display: flex;
+            justify-content: space-around; }
+            #Fans main .Fans-list .Fans-li .Fans-name .Fans-start img {
+              width: 0.25rem;
+              height: 100%; }
+        #Fans main .Fans-list .Fans-li .Fans-wenzi {
+          margin-top: 0.8rem;
+          margin-left: 1.1rem; }
+          #Fans main .Fans-list .Fans-li .Fans-wenzi p {
+            font-size: 0.18rem;
+            color: #a2a2a2; }
+        #Fans main .Fans-list .Fans-li .Fans-sdR {
+          float: right;
+          width: 1.38rem;
+          height: 1.35rem;
+          margin-top: -1rem;
+          border-radius: 0.1rem 0 0 0.1rem;
+          background: #388bfc;
+          font-size: 0.18rem;
+          color: #FFFFFF; }
+          #Fans main .Fans-list .Fans-li .Fans-sdR .Fans-special {
+            width: 100%;
+            height: 50%;
+            background: #38c7fc;
+            border-radius: 0.1rem 0 0 0;
+            text-align: center; }
+            #Fans main .Fans-list .Fans-li .Fans-sdR .Fans-special span {
+              font-size: 0.18rem;
+              color: #FFFFFF;
+              line-height: 0.67rem; }
+          #Fans main .Fans-list .Fans-li .Fans-sdR .Fans-del {
+            font-size: 0.18rem;
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 0.67rem; }
+    #Fans main .Fans-Nav {
+      width: 0.36rem;
+      height: 11.16rem;
+      background: #f3f3f3;
+      margin-top: 0.8rem;
+      float: right; }
+      #Fans main .Fans-Nav li {
+        height: 0.32rem;
+        list-style: none;
+        font-size: 0.18rem;
+        color: #646464;
+        text-align: center;
+        line-height: 0.32rem; }

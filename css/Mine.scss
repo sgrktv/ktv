@@ -1,11 +1,11 @@
 @import url('base.css');
 /* 背景开始 */
-body{
+#Mine{
     width: 7.50rem;
-    height: 13.34rem;
+    height: auto;
     background: url('../img/mine-bj.png') no-repeat center/cover;
     position: relative;
-}
+
 /* 背景结束 */
 /*标题栏*/
 .Mine-titlebar{
@@ -220,5 +220,6 @@ main{
             }
         }
         
+        }
     }
 }
