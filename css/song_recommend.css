@@ -1,0 +1,99 @@
+@import url(base.css);
+#song_pointed {
+  width: 7.5rem;
+  height: 13.32rem;
+  padding: 0 0.24rem;
+  box-sizing: border-box; }
+
+.empty {
+  width: 100%;
+  height: 0.48rem; }
+
+.head {
+  width: 100%;
+  height: 0.36rem;
+  position: relative; }
+  .head .back {
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(../img/back.png) no-repeat;
+    background-size: 100%;
+    float: left; }
+  .head .topic {
+    width: 100%;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.34rem;
+    font-weight: bold;
+    position: absolute; }
+  .head .number {
+    height: 0.36rem;
+    line-height: 0.36rem;
+    color: #fff;
+    font-size: 0.28rem;
+    font-weight: bold;
+    float: right; }
+
+body {
+  background: url(../img/song_background.png) no-repeat 0 -0.1rem;
+  background-size: 100%; }
+
+.list_pointed {
+  width: 100%;
+  height: auto;
+  margin-top: 1.55rem;
+  overflow: hidden; }
+  .list_pointed li {
+    width: 100%;
+    height: 1.56rem;
+    border-bottom: 0.01rem dashed #b7b7b7;
+    box-sizing: border-box;
+    overflow: hidden; }
+  .list_pointed .songer_listL {
+    float: left;
+    width: 1.07rem;
+    height: 1.07rem;
+    margin-top: 0.25rem;
+    position: relative;
+    background: #fff;
+    padding: 0.02rem;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+    background: url(../img/songphoto.png) no-repeat;
+    background-size: 100%; }
+    .list_pointed .songer_listL .background_ {
+      position: absolute;
+      left: 0.1rem;
+      top: 0.04rem;
+      width: 0.97rem;
+      height: 1rem;
+      transform: rotate(20deg);
+      background: #fe3191;
+      z-index: -1;
+      border-radius: 0.2rem; }
+  .list_pointed .songer_listM {
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.24rem;
+    color: #89919e;
+    margin-left: 0.5rem;
+    font-weight: 520;
+    margin-top: 0.54rem; }
+    .list_pointed .songer_listM .time {
+      font-size: 0.24rem;
+      color: #c6c6c6;
+      margin-top: 0.14rem; }
+  .list_pointed .songer_listR {
+    margin-top: 0.54rem;
+    float: right;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: url(../img/add.png) no-repeat;
+    background-size: 100%; }
+
+.list_pointed li:last-of-type {
+  border: none; }
