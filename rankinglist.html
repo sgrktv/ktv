@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/rankinglist.css">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_732875_xykx3myg3as.css">
+</head>
+<body>
+<script src="js/swiper.min.js"></script>
+
+    <div class="rankinglist">
+        <header>
+            <img src="img/rankingbody.png" alt="">
+        </header>
+        <div class="navigation">
+            <a href="" class="return">
+                <i class="iconfont icon-fanhui2"></i>
+            </a>
+            <div class="rklist">排行榜</div>
+        </div>
+        <div class="option">
+            <div class="iwidth">
+                <a href="" class="iwidth1">歌手</a>
+                <a href="" class="iwidth1"><i class="iconfont icon-quantequanb"></i><span>排行</span></a>
+                <a href="" class="iwidth1">常唱</a>
+                <a href="" class="iwidth1">推荐歌单</a>
+            </div>
+        </div>
+        <div class="option1">
+            <div class="option2">
+                <div class="MonthlyRanking">月排行</div>
+                <div class="SeasonRanking">季排行</div>
+                <div class="AnnualRanking">年排行</div>
+            </div>
+        </div>
+
+        <div class="swiper-container wheel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ">
+                    <div class="wheel">
+                        <div class="wheelmap">
+                            <img src="img/rankinglb.png" alt="">
+                            <div class="inputv">
+                                <input type="text">
+                                <div class="inputz">
+                                    <i class="iconfont icon-jiahao3"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="wheel">
+                        <div class="wheelmap">
+                            <img src="img/rankinglb.png" alt="">
+                            <div class="inputv">
+                                <input type="text">
+                                <div class="inputz">
+                                    <i class="iconfont icon-jiahao3"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="wheel">
+                        <div class="wheelmap">
+                            <img src="img/rankinglb.png" alt="">
+                            <div class="inputv">
+                                <input type="text">
+                                <div class="inputz">
+                                    <i class="iconfont icon-jiahao3"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <div class="informimg">
+                <img src="img/rankingtp.png" alt="">
+            </div>
+            <div class="informs">
+                <p>歌手与演员</p>
+                <p><span>04</span>"<span>52</span>'</p>
+            </div>
+        </div>
+        <div class="information">
+            <div class="informimg">
+                <img src="img/rankingtp.png" alt="">
+            </div>
+            <div class="informs">
+                <p>歌手与演员</p>
+                <p><span>04</span>"<span>52</span>'</p>
+            </div>
+        </div>
+        <div class="information">
+            <div class="informimg">
+                <img src="img/rankingtp.png" alt="">
+            </div>
+            <div class="informs">
+                <p>歌手与演员</p>
+                <p><span>04</span>"<span>52</span>'</p>
+            </div>
+        </div>
+        <div class="information">
+            <div class="informimg">
+                <img src="img/rankingtp.png" alt="">
+            </div>
+            <div class="informs">
+                <p>歌手与演员</p>
+                <p><span>04</span>"<span>52</span>'</p>
+            </div>
+        </div>
+    </div>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        autoplay:100,
+        autoplay: {
+            disableOnInteraction: false,
+        },
+        speed:1000,
+
+
+        loop: true,
+        effect : 'coverflow',
+        slidesPerView: 'auto',
+        grabCursor:true,
+        centeredSlides: true,
+        coverflow: {
+            rotate:0,
+            stretch:100,
+            depth:150,
+            modifier:3,
+
+            slideShadows : true
+        },
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+            clickable :true,
+            bulletElement : 'li'
+        },
+    })
+    mySwiper.el.onmouseover = function(){
+        mySwiper.autoplay.stop();
+    },
+        mySwiper.el.onmouseleave= function(){
+            mySwiper.autoplay.start();
+
+        }
+</script>
+</body>
+</html>
