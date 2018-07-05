@@ -1,0 +1,91 @@
+@import url('base.css');
+/* 背景开始 */
+body{
+    width: 7.50rem;
+    height: 13.34rem;
+    position: relative;
+}
+/* 背景结束 */
+/*标题栏*/
+.Fans-titlebar{
+    height: 2.94rem;
+    background:url(../img/fans-bj.png) no-repeat center/cover; 
+    overflow: hidden;
+    position: relative;
+.Fans-core{
+        width: 1.7rem;
+        height: 0.52rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0.9rem auto;
+    p{
+        font-size: 0.26rem;
+        color: #fff;
+        text-align: center;
+        line-height: 0.52rem;
+        span{
+            font-size: 0.2rem;
+            color: #fff;
+            text-align: center;
+            line-height: 0.52rem;
+            }
+        }
+    .Fans-statusbar-btnL{
+        width: 0.05rem;
+        height: 0.05rem;
+        background: #fff;
+        border-radius: 50%;
+        }
+    .Fans-statusbar-btnR{
+        width: 0.05rem;
+        height: 0.05rem;
+        background: #fff;
+        border-radius: 50%;
+        }
+    }
+    .Fans-return{
+        width: 0.4rem;
+        height: 0.4rem;
+        position: absolute;
+        top: 0.87rem;
+        left: 0.24rem;
+        i{
+            float: left;
+            font-size: 0.38rem;
+            color: #fff;
+        }
+    }
+    .Fans-add{
+        width: 0.48rem;
+        height: 0.48rem;
+        border-radius: 50%;
+        border: 0.02rem solid rgba(255,255,255,0.2);
+        position: absolute;
+        top: 0.9rem;
+        right: 0.2rem;
+        i{
+            float: right;
+            font-size: 0.48rem;
+            color: #fff;
+        }
+    }
+}
+/*内容*/
+main{
+    width: 100%;
+    height: 100%;
+    background:url(../img/fans-quan.png) no-repeat center/cover; 
+    position: absolute;
+    top:1.71rem;
+    left:0;
+    .Fans-list{
+        height: auto;
+        margin-top: 1rem;
+        li{
+            height: 1.4rem;
+            margin: auto 0.24rem;
+            background: #565EFF;
+        }
+    }
+}
