@@ -1,0 +1,197 @@
+@charset "UTF-8";
+@import url("base.css");
+/* 背景开始 */
+body {
+  width: 7.50rem;
+  height: 13.34rem;
+  background: url("../img/mine-bj.png") no-repeat center/cover;
+  position: relative; }
+
+/* 背景结束 */
+/*状态栏*/
+.Mine-statusbar {
+  height: 0.4rem; }
+
+/*标题栏*/
+.Mine-titlebar {
+  height: 0.88rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .Mine-titlebar .Mine-core {
+    width: 1.7rem;
+    height: 0.52rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .Mine-titlebar .Mine-core p {
+      font-size: 0.26rem;
+      color: #fff;
+      text-align: center;
+      line-height: 0.52rem; }
+    .Mine-titlebar .Mine-core .Mine-statusbar-btnL {
+      width: 0.05rem;
+      height: 0.05rem;
+      background: #fff;
+      border-radius: 50%; }
+    .Mine-titlebar .Mine-core .Mine-statusbar-btnR {
+      width: 0.05rem;
+      height: 0.05rem;
+      background: #fff;
+      border-radius: 50%; }
+  .Mine-titlebar .Mine-english {
+    font-size: 0.18rem;
+    color: #fff; }
+
+/*名字、头像*/
+.Mine-ming {
+  height: 1.24rem;
+  position: relative; }
+  .Mine-ming .Mine-name {
+    font-size: 0.24rem;
+    color: #fff;
+    float: right;
+    position: absolute;
+    top: 0.5rem;
+    right: 2.5rem; }
+  .Mine-ming .Mine-pinyin {
+    font-size: 0.14rem;
+    color: #fff;
+    float: right;
+    position: absolute;
+    bottom: 0.17rem;
+    right: 2.4rem; }
+
+.Mine-touxiang {
+  width: 1.61rem;
+  height: 1.61rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 1.63rem;
+  right: 0.68rem;
+  overflow: hidden;
+  box-shadow: 0 0.01rem 0.01rem 0.03rem rgba(64, 0, 138, 0.2);
+  z-index: 5; }
+  .Mine-touxiang img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -0.62rem;
+    left: -1.01rem; }
+
+.Mine-tubiao {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: #f9df30;
+  position: absolute;
+  top: 2.78rem;
+  right: 0.68rem;
+  box-shadow: 0 0.01rem 0.01rem 0.03rem rgba(228, 161, 0, 0.3);
+  z-index: 5; }
+  .Mine-tubiao i {
+    font-size: 0.43rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+/*内容*/
+main {
+  height: auto;
+  margin: auto 0.24rem;
+  background: url("../img/mine-ditu.png") no-repeat center/cover;
+  position: relative;
+  overflow: hidden; }
+  main .Mine-ditu {
+    height: 8.6rem;
+    background: rgba(255, 255, 255, 0.1); }
+  main .Mine-Nickname {
+    height: 1rem;
+    position: absolute;
+    top: 1.25rem;
+    right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end; }
+    main .Mine-Nickname .Mine-NicknameC {
+      font-size: 0.3rem;
+      color: #22b0fc; }
+    main .Mine-Nickname .Mine-NicknameE {
+      font-size: 0.18rem;
+      color: #22b0fc; }
+    main .Mine-Nickname .Mine-num {
+      font-size: 0.22rem;
+      color: #000; }
+  main .Mine-center {
+    height: 1.25rem;
+    margin: auto 0.2rem;
+    margin-top: 2.25rem; }
+    main .Mine-center .Mine-follow {
+      width: 2.18rem;
+      height: 100%;
+      background: url(../img/mine-follow.png) no-repeat center/cover;
+      float: left;
+      margin-right: 0.04rem; }
+    main .Mine-center .Mine-fans {
+      width: 2.18rem;
+      height: 100%;
+      background: url(../img/mine-fans.png) no-repeat center/cover;
+      float: left;
+      margin-right: 0.04rem; }
+    main .Mine-center .Mine-money {
+      width: 2.18rem;
+      height: 100%;
+      background: url(../img/mine-money.png) no-repeat center/cover;
+      float: left;
+      margin-right: 0; }
+    main .Mine-center p {
+      font-size: 0.35rem;
+      color: #ff2888;
+      margin-top: 0.41rem;
+      margin-left: 0.2rem; }
+    main .Mine-center span {
+      font-size: 0.25rem;
+      color: #22b0fc;
+      margin-left: 0.12rem; }
+    main .Mine-center h2 {
+      font-size: 0.16rem;
+      color: #565eff;
+      margin-left: 0.17rem;
+      margin-top: 0.13rem; }
+  main .Mine-works {
+    font-size: 0.28rem;
+    color: #f81f86;
+    margin-top: 0.4rem;
+    margin-left: 0.2rem; }
+  main .Mine-designer {
+    font-size: 0.18rem;
+    color: #565eff;
+    margin-top: 0.1rem;
+    margin-left: 0.2rem; }
+  main ul {
+    height: auto; }
+  main li {
+    height: 1.2rem;
+    border-bottom: 1px dashed #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start; }
+    main li .Mine-song {
+      font-size: 0.24rem;
+      color: #89919e;
+      margin-left: 0.27rem; }
+      main li .Mine-song span {
+        font-size: 0.24rem;
+        color: #89919e; }
+    main li .Mine-time {
+      font-size: 0.16rem;
+      color: #cacaca;
+      margin-left: 0.27rem; }
+      main li .Mine-time i {
+        font-size: 0.16rem;
+        color: #cacaca; }

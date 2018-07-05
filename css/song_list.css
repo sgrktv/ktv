@@ -1,0 +1,129 @@
+@import url(base.css);
+#song_list {
+  width: 7.5rem;
+  background: #fff;
+  padding: 0 0.24rem;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  z-index: -2;
+  background: url(../img/background.png) no-repeat 0 -0.5rem;
+  background-size: 100%; }
+
+.head {
+  width: 100%;
+  height: 0.88rem;
+  font-size: 0.28rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 0.88rem;
+  margin-bottom: 0.15rem;
+  overflow: hidden; }
+  .head .backicon {
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+    margin-top: 0.2rem;
+    background: url(../img/backicon.png) no-repeat;
+    background-size: 100%; }
+
+.songer {
+  width: 100%;
+  height: 1.7rem; }
+  .songer .songer_introduce {
+    margin-left: 0.6rem;
+    height: 1.5rem;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0.15rem;
+    box-sizing: border-box; }
+    .songer .songer_introduce p {
+      font-size: 0.24rem;
+      color: #fff; }
+
+.songer_photo {
+  width: 1.47rem;
+  height: 1.47rem;
+  border-radius: 0.15rem;
+  background: #fff;
+  float: left;
+  position: relative; }
+  .songer_photo .songer_back {
+    position: absolute;
+    transform: rotate(15deg);
+    width: 1.47rem;
+    height: 1.47rem;
+    border-radius: 0.15rem;
+    background: #eca8ce;
+    z-index: -1; }
+  .songer_photo .photo {
+    width: 1.43rem;
+    height: 1.35rem;
+    position: absolute;
+    bottom: 0.02rem;
+    left: 0.02rem;
+    background: url(../img/songer_photo.png) no-repeat;
+    background-size: 100%; }
+
+.icon_music {
+  display: inline-block;
+  height: 0.28rem;
+  width: 0.28rem;
+  background: url(../img/music.png) no-repeat;
+  background-size: 100%;
+  margin-right: 0.14rem;
+  vertical-align: middle; }
+
+.icon_video {
+  display: inline-block;
+  height: 0.28rem;
+  width: 0.28rem;
+  background: url(../img/video.png) no-repeat;
+  background-size: 100%;
+  margin-right: 0.14rem;
+  margin-left: 0.4rem;
+  vertical-align: middle; }
+
+.dashed {
+  width: 100%;
+  height: 0.01rem;
+  border-top: 0.01rem dashed #fac9da; }
+
+.song_list {
+  width: 100%;
+  height: auto;
+  margin-top: 0.5rem; }
+  .song_list li {
+    width: 100%;
+    height: 1.24rem;
+    border-bottom: 0.01rem dashed #b7b7b7;
+    padding-top: 0.33rem;
+    box-sizing: border-box; }
+  .song_list .song_listL {
+    float: left;
+    font-size: 0.24rem;
+    width: 0.24rem;
+    color: #3a3f45;
+    font-weight: bold; }
+  .song_list .song_listM {
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.24rem;
+    color: #89919e;
+    margin-left: 0.34rem;
+    font-weight: 520; }
+    .song_list .song_listM .time {
+      font-size: 0.24rem;
+      color: #c6c6c6;
+      margin-top: 0.23rem; }
+  .song_list .song_listR {
+    float: right;
+    width: 0.48rem;
+    height: 0.48rem;
+    background: url(../img/add.png) no-repeat;
+    background-size: 100%; }
