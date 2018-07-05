@@ -342,12 +342,25 @@ body {
     body .screen section {
       height: 7.21rem;
       background: rgba(255, 49, 141, 0.8); }
+      body .screen section .lyrics {
+        height: 6.16rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.24rem;
+        color: #fff; }
+        body .screen section .lyrics .lyricNow {
+          font-size: 0.3rem; }
     body .screen footer {
       width: 100%;
       height: 5.3rem;
       position: fixed;
       bottom: 0rem;
       left: 0; }
+      body .screen footer main {
+        height: 100%;
+        position: relative; }
       body .screen footer .bgTop {
         width: 7.6rem;
         height: 5.2rem;
@@ -372,3 +385,63 @@ body {
         position: fixed;
         bottom: 0rem;
         left: 0; }
+      body .screen footer .playBtns {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 1.15rem;
+        z-index: 1; }
+        body .screen footer .playBtns li {
+          width: 0.88rem;
+          height: 0.88rem; }
+          body .screen footer .playBtns li img img {
+            width: 100%;
+            height: 100%; }
+        body .screen footer .playBtns .pause {
+          width: 1.12rem;
+          height: 1.12rem; }
+      body .screen footer .mic {
+        width: 100%;
+        position: absolute;
+        top: 3.23rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1; }
+        body .screen footer .mic li:nth-child(1) {
+          width: 0.31rem;
+          height: 0.45rem; }
+          body .screen footer .mic li:nth-child(1) img {
+            width: 100%;
+            height: 100%; }
+        body .screen footer .mic li:nth-child(2) {
+          width: 5.13rem;
+          height: 0.06rem;
+          background: #e8d9dd;
+          border-radius: 0.02rem;
+          position: relative; }
+          body .screen footer .mic li:nth-child(2) p {
+            width: 60%;
+            height: 100%;
+            background: #ff318d; }
+          body .screen footer .mic li:nth-child(2) span {
+            display: block;
+            width: 0.15rem;
+            height: 0.15rem;
+            border-radius: 50%;
+            border: 0.03rem solid #fff;
+            background: #ff318d;
+            box-sizing: border-box;
+            position: absolute;
+            right: 2.05rem;
+            top: -0.06rem;
+            box-shadow: 0 0 0.4rem 0.05rem rgba(255, 49, 141, 0.5); }
+        body .screen footer .mic li:nth-child(3) {
+          font-size: 0.24rem; }
+      body .screen footer .volume {
+        top: 4.24rem; }
+        body .screen footer .volume li:nth-child(1) {
+          width: 0.43rem;
+          height: 0.42rem; }
