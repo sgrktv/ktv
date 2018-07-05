@@ -108,6 +108,10 @@ header {
       border-top-right-radius: 0.08rem;
       border-bottom-right-radius: 0.08rem; }
 
+.wl {
+  width: 5.02rem;
+  height: 3.18rem; }
+
 .wheel {
   width: 100%;
   height: 3.75rem;
