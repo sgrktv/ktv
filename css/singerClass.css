@@ -411,10 +411,10 @@ body {
         align-items: center;
         z-index: 1; }
         body .screen footer .mic li:nth-child(1) {
-          width: 0.31rem;
+          width: 0.43rem;
           height: 0.45rem; }
           body .screen footer .mic li:nth-child(1) img {
-            width: 100%;
+            width: 0.31rem;
             height: 100%; }
         body .screen footer .mic li:nth-child(2) {
           width: 5.13rem;
@@ -445,3 +445,6 @@ body {
         body .screen footer .volume li:nth-child(1) {
           width: 0.43rem;
           height: 0.42rem; }
+          body .screen footer .volume li:nth-child(1) img {
+            width: 100%;
+            height: 100%; }

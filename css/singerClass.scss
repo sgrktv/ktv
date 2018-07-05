@@ -385,10 +385,13 @@ body{
         align-items: center;
         z-index: 1;
           li:nth-child(1){
-            width: 0.31rem;
+            width: 0.43rem;
             height: 0.45rem;
             //background: red;
-            @include img-size;
+            img{
+              width: 0.31rem;
+              height: 100%;
+            }
           }
           li:nth-child(2){
             width: 5.13rem;
@@ -424,6 +427,7 @@ body{
         li:nth-child(1){
           width: 0.43rem;
           height: 0.42rem;
+          @include img-size
         }
       }
     }

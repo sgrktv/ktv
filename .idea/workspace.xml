@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbadf20f-e6d3-409b-be25-d9f6dfc9b227" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/切歌@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/刷新@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/圆角矩形4@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/暂停@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/椭圆3@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/话筒(1)@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/语音录音@2x.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/singerClass.css" afterPath="$PROJECT_DIR$/css/singerClass.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/singerClass.scss" afterPath="$PROJECT_DIR$/css/singerClass.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/songPlay.html" afterPath="$PROJECT_DIR$/songPlay.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singerClass.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="singerClass.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/singerClass.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1357">
-              <caret line="422" column="16" lean-forward="false" selection-start-line="422" selection-start-column="16" selection-end-line="422" selection-end-column="16" />
+            <state relative-caret-position="516">
+              <caret line="429" column="27" lean-forward="false" selection-start-line="429" selection-start-column="27" selection-end-line="429" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -68,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="songPlay.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="songPlay.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/songPlay.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+              <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -84,9 +75,9 @@
             <state relative-caret-position="342">
               <caret line="412" column="50" lean-forward="false" selection-start-line="412" selection-start-column="50" selection-end-line="412" selection-end-column="50" />
               <folding>
-                <marker date="1530769112272" expanded="true" signature="986:989" ph="{...}" />
-                <marker date="1530769112272" expanded="true" signature="9166:9205" ph="{...}" />
-                <marker date="1530769112272" expanded="true" signature="11052:11152" ph="{...}" />
+                <marker date="1530771522135" expanded="true" signature="986:989" ph="{...}" />
+                <marker date="1530771522135" expanded="true" signature="9166:9205" ph="{...}" />
+                <marker date="1530771522135" expanded="true" signature="11052:11152" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -111,8 +102,8 @@
         <option value="$PROJECT_DIR$/singerClass.html" />
         <option value="$PROJECT_DIR$/singerList.html" />
         <option value="$PROJECT_DIR$/lyricPlay.html" />
-        <option value="$PROJECT_DIR$/css/singerClass.scss" />
         <option value="$PROJECT_DIR$/songPlay.html" />
+        <option value="$PROJECT_DIR$/css/singerClass.scss" />
       </list>
     </option>
   </component>
@@ -203,12 +194,12 @@
       <workItem from="1530671902963" duration="23716000" />
       <workItem from="1530707563807" duration="26091000" />
       <workItem from="1530752236156" duration="3437000" />
-      <workItem from="1530756422264" duration="6314000" />
+      <workItem from="1530756422264" duration="6982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59558000" />
+    <option name="totallyTimeSpent" value="60226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -286,9 +277,9 @@
         <state relative-caret-position="7424">
           <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding>
-            <marker date="1530769112272" expanded="true" signature="986:989" ph="{...}" />
-            <marker date="1530769112272" expanded="true" signature="9166:9205" ph="{...}" />
-            <marker date="1530769112272" expanded="true" signature="11052:11152" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="986:989" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="9166:9205" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="11052:11152" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -351,9 +342,9 @@
         <state relative-caret-position="7424">
           <caret line="256" column="0" lean-forward="false" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
           <folding>
-            <marker date="1530769112272" expanded="true" signature="986:989" ph="{...}" />
-            <marker date="1530769112272" expanded="true" signature="9166:9205" ph="{...}" />
-            <marker date="1530769112272" expanded="true" signature="11052:11152" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="986:989" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="9166:9205" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="11052:11152" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -389,9 +380,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1530769112272" expanded="true" signature="986:989" ph="{...}" />
-            <marker date="1530769112272" expanded="true" signature="9166:9205" ph="{...}" />
-            <marker date="1530769112272" expanded="true" signature="11052:11152" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="986:989" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="9166:9205" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="11052:11152" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -425,18 +416,10 @@
         <state relative-caret-position="342">
           <caret line="412" column="50" lean-forward="false" selection-start-line="412" selection-start-column="50" selection-end-line="412" selection-end-column="50" />
           <folding>
-            <marker date="1530769112272" expanded="true" signature="986:989" ph="{...}" />
-            <marker date="1530769112272" expanded="true" signature="9166:9205" ph="{...}" />
-            <marker date="1530769112272" expanded="true" signature="11052:11152" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="986:989" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="9166:9205" ph="{...}" />
+            <marker date="1530771522135" expanded="true" signature="11052:11152" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/singerClass.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="422" column="16" lean-forward="false" selection-start-line="422" selection-start-column="16" selection-end-line="422" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +447,15 @@
     <entry file="file://$PROJECT_DIR$/songPlay.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/singerClass.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="429" column="27" lean-forward="false" selection-start-line="429" selection-start-column="27" selection-end-line="429" selection-end-column="27" />
           <folding />
         </state>
       </provider>
