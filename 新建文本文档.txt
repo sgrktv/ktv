@@ -1,0 +1,6 @@
+点击按钮：333  82
+icon：38  38  
+房间链接：34px
+扫一扫：28px
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
