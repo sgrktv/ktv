@@ -18,7 +18,9 @@
     height: 0.36rem;
     background: url(../img/back.png) no-repeat;
     background-size: 100%;
-    float: left; }
+    position: absolute;
+    left: 0;
+    z-index: 10; }
   .head .topic {
     width: 100%;
     height: 0.36rem;
