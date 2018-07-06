@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@import url(base.css);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  background: #fff; }
+
+#shopping-list {
+  /*头部开始*/
+  /*头部结束，商品开始*/
+  /*尾部开始*/ }
+  #shopping-list header {
+    width: 100%;
+    height: 1.74rem;
+    background: url(../img/01_03.png) no-repeat center/cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999; }
+    #shopping-list header .btn {
+      width: 3.08rem;
+      height: 0.67rem;
+      position: absolute;
+      top: 0.28rem;
+      left: 2.21rem;
+      background: #fff;
+      border-radius: 0.5rem; }
+      #shopping-list header .btn .btnleft {
+        width: 1.5rem;
+        height: 0.48rem;
+        background: #ff318d;
+        border: 0.02rem solid #e5267c;
+        border-radius: 0.5rem;
+        left: 0.09rem;
+        top: 0.08rem;
+        position: absolute;
+        color: #fff;
+        font-size: 0.24rem;
+        text-align: center;
+        line-height: 0.48rem;
+        font-weight: bold; }
+        #shopping-list header .btn .btnleft i {
+          color: #ff88bd; }
+      #shopping-list header .btn .btnright {
+        width: 1.5rem;
+        height: 0.48rem;
+        background: #ff318d;
+        border: 0.02rem solid #e5267c;
+        border-radius: 0.5rem;
+        right: 0.09rem;
+        top: 0.08rem;
+        position: absolute;
+        color: #fff;
+        font-size: 0.24rem;
+        text-align: center;
+        line-height: 0.48rem;
+        font-weight: bold;
+        display: none; }
+        #shopping-list header .btn .btnright i {
+          color: #ff88bd; }
+      #shopping-list header .btn .btnleft1 {
+        width: 1.5rem;
+        height: 0.48rem;
+        left: 0.09rem;
+        top: 0.08rem;
+        position: absolute;
+        color: #545b72;
+        font-size: 0.24rem;
+        text-align: center;
+        line-height: 0.48rem;
+        font-weight: bold;
+        display: none; }
+      #shopping-list header .btn .btnright1 {
+        width: 1.5rem;
+        height: 0.48rem;
+        right: 0.09rem;
+        top: 0.08rem;
+        position: absolute;
+        color: #545b72;
+        font-size: 0.24rem;
+        text-align: center;
+        line-height: 0.48rem;
+        font-weight: bold; }
+  #shopping-list .goods {
+    width: 7.02rem;
+    height: auto;
+    margin: 0 auto;
+    background: #fff; }
+    #shopping-list .goods li {
+      width: 100%;
+      height: 2.7rem;
+      background: #fff;
+      border-bottom: 0.04rem dotted #ccc; }
+      #shopping-list .goods li .pic {
+        width: 3.11rem;
+        height: 2.7rem;
+        float: left; }
+      #shopping-list .goods li .int {
+        width: 3.51rem;
+        height: 1.35rem;
+        float: right;
+        margin-top: 0.69rem;
+        position: relative; }
+        #shopping-list .goods li .int .title {
+          font-size: 0.24rem;
+          color: #000; }
+        #shopping-list .goods li .int .imgl {
+          width: 1.67rem;
+          height: 0.23rem;
+          position: absolute;
+          top: 0.02rem;
+          right: 0; }
+          #shopping-list .goods li .int .imgl img {
+            width: 0.2rem;
+            height: 0.23rem;
+            float: left;
+            margin-right: 0.05rem; }
+        #shopping-list .goods li .int .price {
+          line-height: 0.27rem;
+          font-size: 0.27rem;
+          color: #ff326c;
+          margin-top: 0.18rem; }
+        #shopping-list .goods li .int .addl {
+          width: 1.78rem;
+          height: 0.36rem;
+          margin-top: 0.32rem;
+          display: flex;
+          justify-content: space-between; }
+          #shopping-list .goods li .int .addl .number {
+            display: block;
+            width: 0.77rem;
+            height: 0.32rem;
+            border: 0.02rem solid #d2d2d2;
+            border-radius: 0.5rem;
+            font-size: 0.18rem;
+            color: #858585;
+            text-align: center;
+            line-height: 0.32rem; }
+          #shopping-list .goods li .int .addl i {
+            float: left; }
+  #shopping-list footer {
+    width: 100%;
+    height: 2.41rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    box-shadow: 0 -0.05rem 1rem 0.05rem rgba(255, 49, 142, 0.2); }
+    #shopping-list footer .elect {
+      width: 100%;
+      height: 0.44rem;
+      margin-top: 0.41rem;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 0.15rem;
+      box-sizing: border-box; }
+      #shopping-list footer .elect .elect1 {
+        width: 0.92rem;
+        height: 0.44rem;
+        text-align: center;
+        line-height: 0.44rem;
+        color: #000;
+        font-size: 0.24rem; }
+      #shopping-list footer .elect span {
+        display: block;
+        background: #ff318e;
+        border: 0.02rem solid #e12c7e;
+        border-radius: 0.1rem;
+        font-size: 0.24rem;
+        text-align: center;
+        line-height: 0.44rem;
+        color: #fff;
+        padding: 0 0.1rem; }
+      #shopping-list footer .elect .point {
+        width: 0.42rem;
+        height: 0.44rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        #shopping-list footer .elect .point div {
+          width: 0.08rem;
+          height: 0.08rem;
+          border-radius: 50%; }
+    #shopping-list footer .price2 {
+      width: 2.6rem;
+      height: 0.38rem;
+      margin-top: 0.75rem;
+      font-size: 0.34rem;
+      color: #fa3c72;
+      text-align: center;
+      font-weight: 800;
+      padding-left: 0.2rem; }
+      #shopping-list footer .price2 b {
+        font-size: 0.4rem; }
+      #shopping-list footer .price2 i {
+        font-size: 0.18rem; }
+    #shopping-list footer .ok {
+      width: 3.58rem;
+      height: 0.87rem;
+      position: absolute;
+      bottom: 0.14rem;
+      right: 0.24rem;
+      background: #fff;
+      box-shadow: 0 0.05rem 0.1rem 0.0005rem rgba(255, 49, 142, 0.2);
+      border-radius: 0.5rem; }
+      #shopping-list footer .ok .okok {
+        width: 3.5rem;
+        height: 0.79rem;
+        background: url(../img/okok.jpg) no-repeat center/cover;
+        border-radius: 0.5rem;
+        margin-top: 0.04rem;
+        margin-left: 0.04rem;
+        position: relative;
+        font-size: 0.3rem;
+        text-align: center;
+        line-height: 0.79rem;
+        color: #fff;
+        font-weight: bold; }
+        #shopping-list footer .ok .okok .left {
+          width: 0.08rem;
+          height: 0.08rem;
+          border-radius: 50%;
+          background: #fff;
+          position: absolute;
+          top: 0.35rem;
+          left: 0.87rem; }
+        #shopping-list footer .ok .okok .right {
+          width: 0.08rem;
+          height: 0.08rem;
+          border-radius: 50%;
+          background: #fff;
+          position: absolute;
+          top: 0.35rem;
+          right: 0.87rem; }

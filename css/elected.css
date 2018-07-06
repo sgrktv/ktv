@@ -1,0 +1,199 @@
+@import url(base.css);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#elected {
+  background: url(../img/back.jpg) no-repeat center/cover; }
+  #elected header {
+    width: 7.04rem;
+    height: 0.94rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; }
+    #elected header i {
+      position: absolute;
+      top: 0.28rem;
+      left: 0;
+      color: #fff; }
+    #elected header .room {
+      width: 2.87rem;
+      height: 0.32rem;
+      margin: 0.28rem auto;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.26rem;
+      color: #fff;
+      text-align: center;
+      line-height: 0.32rem; }
+      #elected header .room .point {
+        width: 0.05rem;
+        height: 0.05rem;
+        background: #fff;
+        border-radius: 50%; }
+    #elected header .num {
+      width: 2rem;
+      height: 0.25rem;
+      margin: 0.1rem auto;
+      font-size: 0.24rem;
+      color: #fff;
+      text-align: center;
+      line-height: 0.25rem; }
+  #elected .champinship {
+    width: 7.02rem;
+    margin: 0.32rem auto;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.7rem 0.005rem rgba(0, 0, 0, 0.2);
+    padding-bottom: 0.99rem; }
+    #elected .champinship li {
+      width: 7.02rem;
+      height: 2.01rem;
+      margin-top: 0.55rem; }
+      #elected .champinship li .pic {
+        width: 2.54rem;
+        height: 2.01rem;
+        float: left; }
+      #elected .champinship li .infor {
+        width: 4.47rem;
+        height: 2.01rem;
+        float: right;
+        position: relative; }
+        #elected .champinship li .infor .top {
+          font-size: 0.26rem;
+          font-weight: bold;
+          color: #fc3195;
+          margin-top: 0.25rem; }
+        #elected .champinship li .infor .name {
+          font-size: 0.26rem;
+          width: 4rem;
+          border-bottom: 0.01rem dashed #ccc;
+          margin-top: 0.1rem;
+          padding-bottom: 0.2rem;
+          color: #a2a2a2; }
+        #elected .champinship li .infor .addl {
+          width: 1.78rem;
+          height: 0.36rem;
+          margin-top: 0.41rem;
+          display: flex;
+          justify-content: space-between; }
+          #elected .champinship li .infor .addl .number {
+            display: block;
+            width: 0.77rem;
+            height: 0.32rem;
+            border: 0.02rem solid #d2d2d2;
+            border-radius: 0.5rem;
+            font-size: 0.18rem;
+            color: #858585;
+            text-align: center;
+            line-height: 0.32rem; }
+          #elected .champinship li .infor .addl i {
+            float: left; }
+        #elected .champinship li .infor .price {
+          width: 1.76rem;
+          height: 0.36rem;
+          position: absolute;
+          right: 0;
+          bottom: 0.2rem;
+          font-size: 0.16rem;
+          color: #fe318e;
+          font-weight: bold; }
+          #elected .champinship li .infor .price .heng {
+            width: 0.31rem;
+            height: 0.04rem;
+            border-radius: 0.5rem;
+            position: absolute;
+            top: 0.07rem;
+            right: 0.9rem;
+            background: #ff318d; }
+          #elected .champinship li .infor .price .dian {
+            width: 0.04rem;
+            height: 0.04rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 0.07rem;
+            right: 0.81rem;
+            background: #ff318d; }
+  #elected .total {
+    width: 4.2rem;
+    height: 0.46rem;
+    margin-top: 0.73rem;
+    margin-left: 3.2rem;
+    position: relative; }
+    #elected .total .total1 {
+      position: absolute;
+      width: 2.26rem;
+      height: 0.46rem;
+      top: 0;
+      left: 0;
+      color: #d1d6e4;
+      font-size: 0.46rem;
+      text-align: center;
+      border-right: 0.01rem dashed #ccc;
+      font-weight: bold;
+      padding-right: 0.1rem;
+      box-sizing: border-box; }
+    #elected .total .zong {
+      width: 0.7rem;
+      font-size: 0.24rem;
+      color: #ff318d;
+      position: absolute;
+      top: 0;
+      left: 2.4rem;
+      font-weight: bold; }
+    #elected .total .rmb {
+      width: 0.7rem;
+      font-size: 0.24rem;
+      color: #b8b8b8;
+      position: absolute;
+      bottom: 0;
+      left: 2.4rem;
+      font-weight: bold; }
+    #elected .total .priceall {
+      height: 0.46rem;
+      font-size: 0.46rem;
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #ff318d;
+      font-weight: bold; }
+  #elected .bor {
+    width: 5.73rem;
+    height: 0.88rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    margin: 0.66rem auto;
+    overflow: hidden;
+    box-shadow: 0 0.05rem 0.1rem 0.0005rem rgba(255, 49, 142, 0.2); }
+    #elected .bor .btn {
+      width: 5.65rem;
+      height: 0.8rem;
+      background: url(../img/okok1.jpg) no-repeat center/cover;
+      border-radius: 0.5rem;
+      margin: 0.04rem auto;
+      text-align: center;
+      font-size: 0.3rem;
+      color: #fff;
+      line-height: 0.8rem;
+      font-weight: bold;
+      position: relative; }
+      #elected .bor .btn .w {
+        width: 0.08rem;
+        height: 0.08rem;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 0.35rem;
+        left: 1.8rem; }
+      #elected .bor .btn .w1 {
+        width: 0.08rem;
+        height: 0.08rem;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 0.35rem;
+        right: 1.8rem; }
